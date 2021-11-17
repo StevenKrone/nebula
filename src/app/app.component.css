@@ -1,0 +1,43 @@
+.body {
+min-height: 100vh
+}
+
+.body >>> .navbar {
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: 0%;
+    display: block;
+    overflow: visible;
+    width: 210px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #303746;
+    box-shadow: 4px 0 14px -5px rgba(0, 0, 0, 0.32);
+  }
+
+
+.body >>>  .link-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.body >>>  .link-block-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+
+.body >>>  .dashboard-link {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
