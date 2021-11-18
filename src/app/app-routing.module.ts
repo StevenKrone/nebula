@@ -6,6 +6,7 @@ import { InsightsComponent } from './insights/insights.component';
 import { InsightsmodulesComponent } from './insightsmodules/insightsmodules.component';
 import { ModulesComponent } from './modules/modules.component';
 import { Modules2Component } from './modules2/modules2.component';
+import { Modules3Component } from './modules3/modules3.component';
 import { OldHomeComponent } from './old-home/old-home.component';
 import { OurgoalsComponent } from './ourgoals/ourgoals.component';
 import { PresentationWhyComponent } from './presentation-why/presentation-why.component';
@@ -30,7 +31,8 @@ const routes: Routes = [
   { path: 'insights', component: InsightsComponent },
   { path: 'old-home', component: OldHomeComponent },
   { path: 'presentation-2-why', component: PresentationWhyComponent },
-  { path: 'teams', component: TeamsComponent }
+  { path: 'teams', component: TeamsComponent },
+  { path: 'modules3', component: Modules3Component }
 ];
 
 @NgModule({

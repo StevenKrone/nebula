@@ -17,6 +17,7 @@ import { PresentationWhyComponent } from './presentation-why/presentation-why.co
 import { TeamsComponent } from './teams/teams.component';
 import { Thesolution2Component } from './thesolution2/thesolution2.component';
 import { InsightsmodulesComponent } from './insightsmodules/insightsmodules.component';
+import { Modules3Component } from './modules3/modules3.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { InsightsmodulesComponent } from './insightsmodules/insightsmodules.comp
     PresentationWhyComponent,
     TeamsComponent,
     Thesolution2Component,
-    InsightsmodulesComponent
+    InsightsmodulesComponent,
+    Modules3Component
   ],
   imports: [
     BrowserModule,
